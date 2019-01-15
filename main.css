@@ -1,0 +1,72 @@
+body{
+	background: url(images/imgbg.jpg) top center;
+}
+
+.titre{
+	transform: rotate(-5deg);
+	color: green;
+	margin-bottom: 15px;
+}
+
+.container{
+	border-radius: 50px;
+	background-color: #9d55;
+	margin-top: 30px; 
+	margin-bottom: 80px; 
+	max-width: 600px; 
+	min-width: 300px;
+	box-shadow: 7px 8px 10px 7px #0080E3;
+}
+
+/* style Ecran d'affichage*/
+.afficheEcran{
+  background-color: #e5e5e5;
+  border: 5px solid white;
+  border-radius: 50px;
+  font-size: 36px;
+  font-family:cursive;
+  margin-bottom: 20px;
+  border-radius: 25px;
+  color:#0080E3;
+  box-shadow: 5px 4px 5px 5px #0080E3;
+
+}
+
+
+
+.btn {
+	font-family: 'Amatic SC', cursive;
+	font-size: 36px;
+	color: white;
+	background-color: black;
+	border-radius: 50px;
+}
+.acAndDel{
+	background-color: orange;
+}
+
+.btn-default:hover {background-color: #fdfdfd;}
+
+.btn-default:active {background-color: #fdfdfd;
+	border-radius: 50px;
+}
+
+.btn-default:focus {
+	background-color: #fdfdfd;
+	border-radius: 50px;
+}
+
+
+.bold {font-weight: bold;}
+
+h1 {
+	font-family: 'Homemade Apple', cursive;
+}
+
+.col-xs-4, .col-xs-3 {
+  padding: 3px;
+}
+ footer{
+ 	margin-bottom: -100px;
+ 	color: white;
+ }
